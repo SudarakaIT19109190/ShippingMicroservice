@@ -108,7 +108,7 @@ app.listen(PORT, () => {
 app.use('/shipping', ShippignController());
 
 app.get('/', (req, res) => {
-    res.send('Server Running in kuberntes Shipping MicroService')
+    res.send('HI From Sudaraka')
     
   })
   
