@@ -20,5 +20,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/shippingMicroservice:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/shippingmicroservice:${{ github.sha }}
    
